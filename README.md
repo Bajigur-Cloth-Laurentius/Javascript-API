@@ -1,5 +1,4 @@
-# Javascript-API
-Coding Test made with Javascript
+# Bajigur-App
 
 Bajigur App merupakan API dimana admin bisa mendaftarkan segala data toko, dari data transaksi sampai data membernya (spesifik CSV file) yang akan otomatis masuk kedalam database yang telah disediakan.
 
