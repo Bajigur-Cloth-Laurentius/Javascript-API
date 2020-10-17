@@ -6,15 +6,15 @@ Bajigur App merupakan API dimana admin bisa mendaftarkan segala data toko, dari 
 Selain itu member yang telah terdaftar (dan memiliki riwayat transaksi) dapat mendapatkan "rekomendasi" dimana data tersebut diperoleh dan diolah dari pembelian yang mereka pernah lakukan.
 
 Fitur - fitur esential untuk admin maupun staff:
-   -Dapat mendaftarkan diri, mengedit, maupun menghapus akun kerjanya
-   -Dapat memperbarui informasi produk toko, merubah, maupun menghapus produk tersebut (hanya beberapa admin saja dengan role tertentu yang dapat menghapus data tersebut)
-   -Beberapa admin memiliki kemampuan untuk menginput data secara masal menggunakan CSV file yang diupload melalui multipart/form-data
-   -Terproteksi dengan berbagai autentikasi dan autorisasi
+    -Dapat mendaftarkan diri, mengedit, maupun menghapus akun kerjanya
+    -Dapat memperbarui informasi produk toko, merubah, maupun menghapus produk tersebut (hanya beberapa admin saja dengan role tertentu yang dapat menghapus data tersebut)
+    -Beberapa admin memiliki kemampuan untuk menginput data secara masal menggunakan CSV file yang diupload melalui multipart/form-data
+    -Terproteksi dengan berbagai autentikasi dan autorisasi
 
 Fitur - fitur esential untuk member:
-    -Dapat mendaftarkan diri, mengedit, maupun menghapus akun membernya
-    -Dapat memperoleh rekomendasi yang terpersonalisasi berdasarkan riwayat transaksi, dan berbeda setiap user
-    -Terproteksi dengan berbagai autentikasi dan autorisasi
+      -Dapat mendaftarkan diri, mengedit, maupun menghapus akun membernya
+      -Dapat memperoleh rekomendasi yang terpersonalisasi berdasarkan riwayat transaksi, dan berbeda setiap user
+      -Terproteksi dengan berbagai autentikasi dan autorisasi
 
 ### Teknologi yang digunakan:
     Base:
