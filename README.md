@@ -17,7 +17,7 @@ Selain itu member yang telah terdaftar (dan memiliki riwayat transaksi) dapat me
       -Terproteksi dengan berbagai autentikasi dan autorisasi
 
 ###### Coverage:
-    https://i.ibb.co/p1wpGp0/coverage.png
+https://i.ibb.co/p1wpGp0/coverage.png
 
 ### Teknologi yang digunakan:
     Base:
