@@ -16,6 +16,9 @@ Selain itu member yang telah terdaftar (dan memiliki riwayat transaksi) dapat me
       -Dapat memperoleh rekomendasi yang terpersonalisasi berdasarkan riwayat transaksi, dan berbeda setiap user
       -Terproteksi dengan berbagai autentikasi dan autorisasi
 
+###### Coverage:
+    https://i.ibb.co/p1wpGp0/coverage.png
+
 ### Teknologi yang digunakan:
     Base:
       Node.js
