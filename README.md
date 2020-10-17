@@ -5,13 +5,13 @@ Bajigur App merupakan API dimana admin bisa mendaftarkan segala data toko, dari 
 
 Selain itu member yang telah terdaftar (dan memiliki riwayat transaksi) dapat mendapatkan "rekomendasi" dimana data tersebut diperoleh dan diolah dari pembelian yang mereka pernah lakukan.
 
-Fitur - fitur esential untuk admin maupun staff:
-    -Dapat mendaftarkan diri, mengedit, maupun menghapus akun kerjanya
-    -Dapat memperbarui informasi produk toko, merubah, maupun menghapus produk tersebut (hanya beberapa admin saja dengan role tertentu yang dapat menghapus data tersebut)
-    -Beberapa admin memiliki kemampuan untuk menginput data secara masal menggunakan CSV file yang diupload melalui multipart/form-data
-    -Terproteksi dengan berbagai autentikasi dan autorisasi
+###### Fitur - fitur esential untuk admin maupun staff:
+      -Dapat mendaftarkan diri, mengedit, maupun menghapus akun kerjanya
+      -Dapat memperbarui informasi produk toko, merubah, maupun menghapus produk tersebut (hanya beberapa admin saja dengan role tertentu yang dapat menghapus data tersebut)
+      -Beberapa admin memiliki kemampuan untuk menginput data secara masal menggunakan CSV file yang diupload melalui multipart/form-data
+      -Terproteksi dengan berbagai autentikasi dan autorisasi
 
-Fitur - fitur esential untuk member:
+###### Fitur - fitur esential untuk member:
       -Dapat mendaftarkan diri, mengedit, maupun menghapus akun membernya
       -Dapat memperoleh rekomendasi yang terpersonalisasi berdasarkan riwayat transaksi, dan berbeda setiap user
       -Terproteksi dengan berbagai autentikasi dan autorisasi
@@ -37,7 +37,8 @@ Fitur - fitur esential untuk member:
     -Setelah clone repository dari Git, jalankan `npm install` dan `npm install -D` dari command line
     -Buat database untuk testing (PostgreSQL) dengan cara `npx sequelize db:create`, dilanjutkan dengan `npx sequelize db:migrate` pada command line (pastikan berada di direktori clone tsb.)
     -Eksekusi testing dengan perintah `npm run test` pada command line, ketika berada di dalam directory git
-      -Bila terjadi error, mungkin dapat membantu:
+
+      Bila terjadi error, mungkin dapat membantu:
         -Bila menggunakan non Windows, ubah script `test` pada `package.json` menjadi `"NODE_ENV=test npx jest --verbose --coverage --runInBand --forceExit --detectOpenHandles"` 
         -Bila terjadi error kesalahan kredensial pada Postgres, config dapat diatur pada `./config/config.json`. Pastikan script `"test"` yang terubah
 
